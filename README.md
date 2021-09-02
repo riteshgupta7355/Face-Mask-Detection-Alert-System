@@ -1,8 +1,10 @@
-<h1> Face-Mask-Detection-Alert-System </h1>
+<h1> COVID-19: Face Mask Detector with OpenCV, Keras/TensorFlow, and Deep Learning </h1>
 
-<h2>𝐑𝐞𝐚𝐥-𝐓𝐢𝐦𝐞 𝐅𝐚𝐜𝐞 𝐦𝐚𝐬𝐤 𝐝𝐞𝐭𝐞𝐜𝐭𝐢𝐨𝐧 𝐮𝐬𝐢𝐧𝐠 𝐝𝐞𝐞𝐩𝐥𝐞𝐚𝐫𝐧𝐢𝐧𝐠 𝐰𝐢𝐭𝐡 𝐀𝐥𝐞𝐫𝐭 𝐬𝐲𝐬𝐭𝐞𝐦</h2>
+We’ll use this Python script to train a face mask detector and review the results.
 
-<img src="1.png">
-<img src="2.png">
+<h2><b>Detect face masks in real-time video streams</b></h2>
+
+<h2>Two-phase COVID-19 face mask detector </h2>
+
 
 
