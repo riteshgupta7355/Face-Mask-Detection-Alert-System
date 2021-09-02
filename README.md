@@ -6,5 +6,8 @@ We’ll use this Python script to train a face mask detector and review the resu
 
 <h2>Two-phase COVID-19 face mask detector </h2>
 
+<img src="3.jpeg">
+
+
 
 
