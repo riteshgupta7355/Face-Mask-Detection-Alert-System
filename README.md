@@ -16,3 +16,23 @@ In order to train a custom face mask detector, we need to break our project into
 
 <img src="4.PNG">
 
+
+Our current method of detecting whether a person is wearing a mask or not is a two-step process:
+
+<b>Step #1:</b> Perform face detection <br>
+<b>Step #2:</b> Apply our face mask detector to each face <br>
+
+To circumvent that issue, you should train a two-class object detector that consists of a with_mask class and without_mask class.
+
+Combining an object detector with a dedicated with_mask class will allow improvement of the model in two respects.
+
+First, the object detector will be able to naturally detect people wearing masks that otherwise would have been impossible for the face detector to detect due to too much of the face being obscured.
+
+Secondly, this approach reduces our computer vision pipeline to a single step — rather than applying face detection and then our face mask detector model, all we need to do is apply the object detector to give us bounding boxes for people both with_mask and without_mask in a single forward pass of the network.
+
+
+<img src="6.jpg">
+
+<img src="7.jpg">
+
+<img src="8.png">
